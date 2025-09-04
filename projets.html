@@ -1,0 +1,74 @@
+<!--
+ * @ Author: Thibault Merland
+ * @ Create Time: 2025-09-03 16:30:00
+ * @ Description: portfolio SISR - Page Projets
+ -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Thibault Merland | Portfolio SISR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="photo-profil.jpg" alt="Photo de profil Thibault Merland" class="profile-photo">
+            <div class="header-text">
+                <h1>Thibault Merland</h1>
+                <p>Étudiant en BTS SIO option SISR (Solutions d'infrastructures, systèmes et réseaux)</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="projets.html" class="active">Projets</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="projets">
+        <h2>Projets Réalisés</h2>
+        <div class="grid">
+            <div class="card project">
+                <i class="fas fa-search-plus"></i>
+                <h3>Audit de Sécurité</h3>
+                <p>Réalisation d'un audit complet de sécurité pour une PME, incluant tests d'intrusion et recommandations.</p>
+                <div class="skills">
+                    <span class="skill-tag">Nmap</span>
+                    <span class="skill-tag">Metasploit</span>
+                </div>
+            </div>
+            <div class="card project">
+                <i class="fas fa-shield-virus"></i>
+                <h3>Système de Détection d'Intrusion</h3>
+                <p>Mise en place d'un IDS/IPS avec configuration personnalisée et monitoring en temps réel.</p>
+                <div class="skills">
+                    <span class="skill-tag">Snort</span>
+                    <span class="skill-tag">ELK Stack</span>
+                </div>
+            </div>
+            <div class="card project">
+                <i class="fas fa-lock"></i>
+                <h3>Application Sécurisée</h3>
+                <p>Développement d'une application web avec authentification forte et gestion sécurisée des données.</p>
+                <div class="skills">
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">MySQL</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Thibault Merland - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
