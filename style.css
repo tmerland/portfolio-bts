@@ -38,6 +38,7 @@ header {
     justify-content: center;
     gap: 1.5rem;
     border-bottom: 1px solid var(--border-color);
+    position: relative;
 }
 
 .header-content {
@@ -45,6 +46,38 @@ header {
     align-items: center;
     gap: 1.5rem;
     max-width: 1200px;
+}
+
+/* Bouton CV en haut à droite */
+.cv-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 15px -3px rgba(59, 130, 246, 0.4);
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.cv-btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 25px -5px rgba(59, 130, 246, 0.6);
+    background: linear-gradient(135deg, var(--accent), var(--primary-dark));
+}
+
+.cv-btn i {
+    font-size: 1rem;
+    color: #fff;
 }
 
 .profile-photo {
