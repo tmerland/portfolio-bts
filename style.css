@@ -569,6 +569,20 @@ form button:hover {
     min-height: 40px;
 }
 
+.proof-link-disabled {
+    color: #94a3b8;
+    cursor: default;
+}
+
+.proof-link-disabled:hover {
+    color: #94a3b8;
+    transform: none;
+}
+
+.proof-link-disabled:hover::after {
+    content: none;
+}
+
 /* Bouton Grille E6 */
 .grille-e6-btn {
     display: inline-flex;
